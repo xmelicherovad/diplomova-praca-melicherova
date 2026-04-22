@@ -1,0 +1,69 @@
+# =============================================================================
+# Závislosti pre projekt: Strojové učenie a simulácia na finančných trhoch
+# =============================================================================
+# Inštalácia: pip install -r requirements.txt
+# =============================================================================
+
+# Základné knižnice pre prácu s dátami
+numpy>=1.21.0
+pandas>=1.3.0
+scipy>=1.7.0
+
+# Sťahovanie finančných dát
+yfinance>=0.2.0
+
+# Strojové učenie - sklearn
+scikit-learn>=1.0.0
+
+# XGBoost - gradient boosting
+xgboost>=1.5.0
+
+# Deep Learning - TensorFlow/Keras
+# Poznámka: Pre GPU podporu použite tensorflow-gpu
+tensorflow>=2.8.0
+
+# Vizualizácia
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Ukladanie modelov
+joblib>=1.1.0
+
+# =============================================================================
+# Voliteľné závislosti (pre rozšírené funkcie)
+# =============================================================================
+
+# Interaktívne grafy (voliteľné)
+# plotly>=5.0.0
+
+# Jupyter podpora (voliteľné)
+# jupyter>=1.0.0
+# ipykernel>=6.0.0
+
+# Pokročilé štatistiky (voliteľné)
+# statsmodels>=0.13.0
+
+# =============================================================================
+# Poznámky k inštalácii
+# =============================================================================
+# 
+# 1. Základná inštalácia (bez GPU):
+#    pip install -r requirements.txt
+#
+# 2. Pre GPU podporu TensorFlow (NVIDIA GPU):
+#    pip install tensorflow-gpu>=2.8.0
+#
+# 3. Pre Apple Silicon (M1/M2):
+#    pip install tensorflow-macos>=2.8.0
+#    pip install tensorflow-metal
+#
+# 4. Ak máte problémy s TensorFlow, môžete ho vynechať:
+#    - Program bude fungovať bez deep learning modelov
+#    - Stačí zakomentovať riadok s tensorflow
+#
+# 5. Odporúčané vytvorenie virtuálneho prostredia:
+#    python -m venv venv
+#    venv\Scripts\activate  (Windows)
+#    source venv/bin/activate  (Linux/Mac)
+#    pip install -r requirements.txt
+# =============================================================================
