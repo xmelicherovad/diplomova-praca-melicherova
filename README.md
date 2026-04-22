@@ -43,7 +43,7 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
-### 2. Inštalácia závislostí
+### 2. Inštalácia prerekvizít
 
 ```bash
 pip install -r requirements.txt
